@@ -2,8 +2,13 @@
 module.exports = {
   content: ['./src/index.html','./src/**/*.{js,jsx}'],
   theme: {
-    extend: {},
+    extend: { },
   },
-  plugins: [],
+  plugins: [
+   
+  ],
+  corePlugins:{
+    // preflight:false
+  }
 }
 
